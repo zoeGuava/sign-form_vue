@@ -30,6 +30,11 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      'primary-red': 'hsl(0, 100%, 74%)',
+      'primary-green': 'hsl(154, 59%, 51%)',
+      'accent-blue': 'hsl(248, 32%, 49%)',
+      'neutral-dark-blue': 'hsl(249, 10%, 26%)',
+      'neutral-grayish-blue': 'hsl(246, 25%, 77%)'
     },
     spacing: {
       px: '1px',
@@ -169,6 +174,9 @@ module.exports = {
       '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
+      'default-green': '0 4px hsl(155 58% 46%)',
+      'active-green': '0 4px hsl(155 58% 60%)',
+      grey: '0 10px rgb(0 0 0 / 20%)',
     },
     caretColor: (theme) => theme('colors'),
     contrast: {
@@ -243,6 +251,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
       sans: [
         'ui-sans-serif',
         'system-ui',
