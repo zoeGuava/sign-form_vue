@@ -43,7 +43,7 @@ export default {
       fieldsData: [
         {
           id: 'first-name',
-          placeholder: 'First Name',
+          name: 'First Name',
           type: 'text',
           value: 'default value',
           error: false,
@@ -51,7 +51,7 @@ export default {
         },
         {
           id: 'last-name',
-          placeholder: 'Last Name',
+          name: 'Last Name',
           type: 'text',
           value: 'default value',
           error: false,
@@ -59,7 +59,7 @@ export default {
         },
         {
           id: 'email',
-          placeholder: 'Email',
+          name: 'Email',
           type: 'email',
           value: 'default value',
           error: false,
@@ -67,7 +67,7 @@ export default {
         },
         {
           id: 'password',
-          placeholder: 'Password',
+          name: 'Password',
           type: 'password',
           value: 'default value',
           error: false,
